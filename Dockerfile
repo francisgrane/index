@@ -1,5 +1,5 @@
 # Use Alpine Linux as the base image
-FROM alpine:latest
+FROM nginx:latest
 
 # Install Nginx
 RUN apk --no-cache add nginx

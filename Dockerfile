@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Install Nginx
-RUN apk --no-cache add nginx
+
 
 # Copy index.html into the Nginx document root
 COPY index.html /usr/share/nginx/html/index.html
